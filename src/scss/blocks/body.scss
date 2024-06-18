@@ -1,8 +1,30 @@
+@use '../mixins/responsive.scss' as *;
+
 html {
   scroll-behavior: smooth;
 }
+
+*{
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
 body {
-  background-color: #111;
-  font-family: sans-serif;
+  background-image: url(../../images/bg-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Raleway, sans-serif;
   color: white;
 }
+
+/* @include responsive(tablet){
+  body{
+    background-image: url(../../images/bg-desktop.png);
+    background-color: #0C122C;
+   
+  }
+} */

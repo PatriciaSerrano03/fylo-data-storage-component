@@ -5,12 +5,43 @@
     <!-- PON UN FAVICON!!! -->
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- CAMBIA EL TITLE!!! -->
     <title>Vite Template</title>
   </head>
   <body>
-    <h1>HOLA</h1>
-    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat rerum pariatur iste nemo quos praesentium alias nostrum dolore magni? Provident magni incidunt harum officiis consequatur ad temporibus laboriosam hic illum! </p>
+    <main class="main">
+      <section class="filename">
+        <div class="filename__logo">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <div class="filename__images">
+          <img src="./images/icon-document.svg" alt="">
+          <img src="./images/icon-folder.svg" alt="">
+          <img src="./images/icon-upload.svg" alt="">
+        </div>
+      </section>
+      <section class="numbersoffiles">
+        <div class="container">
+        <span class="quantity">You`ve used <span class="bold">815 GB</span> of your storage</span>
+        <div class="quantitybar">
+          <div class="quantitybar__complete"></div>
+        </div>
+        <div class="numberGB">
+          <span>0 BG</span>
+          <span>1000 GB</span>
+        </div>
+      </section>
+      <section class="containertotal">
+        <div class="totalnumberoffile">
+          <h2>185 <span class="little__gb">GB LEFT</span></h2>
+        </div>
+        
+      </section>
+    </div>
+    </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
